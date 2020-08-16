@@ -151,7 +151,7 @@ alias gerp='grep -n --color=auto'
 alias sdn='rm -rf ~/backup/* && shutdown now'
 alias ebashrc='vi ~/.bashrc'
 alias vbashrc='. ~/.bashrc'
-alias ll='clear && ls --color=auto -lh'
+alias ll='clear && pwd && ls --color=auto -lh'
 alias la='ls -al'
 alias kmusic='killall rhythmbox && exit'
 alias install='sudo apt-get install'
@@ -185,7 +185,4 @@ alias tw='clear && task waiting '
 #jupyter-notebook
 alias jn='jupyter-notebook'
 
-
 export PATH="/home/cani_ic/work/bash/myscript:$PATH"
-
-k
