@@ -182,5 +182,10 @@ alias tps='clear && task projects '
 alias tr='clear && task ready '
 alias tw='clear && task waiting '
 
+#jupyter-notebook
+alias jn='jupyter-notebook'
+
 
 export PATH="/home/cani_ic/work/bash/myscript:$PATH"
+
+k
